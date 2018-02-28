@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Iputs Demo</title>
+</head>
+<body>
+	<p>Do you prefer cats or dogs?</p>
+	<form>
+		<label for="dogs">Dogs:</label>
+		<input name="petChoice" type="radio" id="dogs" value="dogs"> 
+		<label for="cats">Cats:</label>
+		<input name="petChoice" type="radio" id="cats" value="cats">
+
+		<p>What's your current mood?</p>
+		<select name="mood">
+			<option value="happy">:)</option>
+			<option value="neutral">:|</option>
+			<option name="sad">:(</option>
+		</select>
+
+		<input type="text" name="">
+
+		<textarea name="paragraph" rows="10" cols="50"></textarea>
+		<button>Go!</button>
+	</form>
+
+	<h1>Inputs Exercise</h1>
+	<h2>Register</h2>
+	<form>
+		
+		
+		
+		
+		
+		
+		
+		<div>
+			<label for="first-name">First Name:</label>
+			<input type="text" name="firstname" id="first-name" required="" placeholder="John">
+			<label for="last-name">Last Name:</label>
+			<input type="text" name="last-name" id="last-name" required="" placeholder="Smith">
+		</div>
+		<div>
+			<label for="male">Male</label>
+			<input type="radio" name="gender" id="male" value="male">
+			<label for="female">Female</label>
+			<input type="radio" name="gender" id="female" value="female">
+			<label for="other">Other</label>
+			<input type="radio" name="gender" id="other" value="other">
+		</div>
+		<div>
+			<label for="email">Email:</label>
+			<input type="email" name="email" id="email" required="" placeholder="Your email">
+			<label for="password">Password:</label>
+			<input type="password" name="password" id="password" required title="5 to 10 Characters" pattern=".{5,10}">
+		</div>
+		<div>
+			<label for="birthday">Birthday:</label>
+			<input type="date" name="birthday" id="birthday">
+		</div>
+		<div>
+			<label for="agree">I agree to the terms and conditions</label>
+			<input type="checkbox" name="agree" id="agree">
+		</div>
+		<input type="submit" name="">
+	</form>
+	
+</body>
+</html>

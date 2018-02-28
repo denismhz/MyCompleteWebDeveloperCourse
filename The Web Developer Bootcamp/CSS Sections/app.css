@@ -1,0 +1,29 @@
+h1 {
+	color: green;
+	color: #FF0000; /*R*/
+	color: rgb(255, 0,0);
+	border-color: purple;
+	border-width: 5px;
+	border-style: solid;
+	border: 1px solid black;
+	border: 8px dashed green;
+}
+
+li{
+	color: yellow;
+	color: #00FF00;/*G*/
+	color: rgba(0,0,0, 0.5);
+}
+
+h4{
+	color: lightgreen;
+	color: #0000FF;/*B*/
+	background: rgba(100,100,100, 0.9);
+}
+
+body {
+	background: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569_960_720.jpg);
+	/*background-repeat: no-repeat;*/
+	background-size: cover;
+	background: pink;
+}
