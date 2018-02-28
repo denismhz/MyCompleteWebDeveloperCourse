@@ -1,5 +1,6 @@
 body {
 	background: orange;
+	color: blue;
 }
 
 li {
@@ -9,3 +10,33 @@ li {
 #special{
 	background: yellow;
 }
+
+.completed {
+	text-decoration: line-through;
+}
+
+p {
+	color: green;
+}
+
+ul{
+	color: black;
+}
+
+li {
+	color: brown;
+}
+
+.highlight{
+	color: lightgray;
+}
+
+#special {
+	color: black;
+}
+
+h1 + ul {
+	background: green;
+}
+
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/Specificity*/
