@@ -1,0 +1,39 @@
+p {
+	font-family: Open Sans Condensed;
+}
+
+h1 {
+	font-family: Georgia;
+}
+
+body{
+	font-size: 10px;
+}
+
+h1 {
+	font-size: 5.0em;
+	text-align: right;
+	text-decoration: line-through;
+	font-family: Indie Flower;
+}
+
+p{
+	font-size: 2.0em;
+	font-weight: bold;
+	text-decoration: underline;#
+	
+
+}
+
+p:nth-of-type(2){
+	line-height: 2;
+	text-align: center;
+}
+
+span {
+	font-size: 2.0em;
+
+}
+
+
+
