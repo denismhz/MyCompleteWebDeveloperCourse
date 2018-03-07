@@ -1,0 +1,75 @@
+Introduction to Mathematical Thinking
+
+Assignment 1 
+
+2) 	b) Large hole appears in High Street. City authoritys investigate.
+	c) Mayor says bus pessengers should belt themselves.
+
+3)	Not a single head injury should be ignored.
+
+4)	1) Only use the elevator in case of fire
+	2) not use elevator in case of fire	
+	3) Don't use the elevator in case of a fire.
+
+5) 	1) The statement is false because the page indeed is not empty.
+	2) The purpose of this is to clarify that after this page there could be pages that are not blanc.
+	3) There is a next page after this page.
+
+6)	1) Foreigners are hunting dogs
+	2) Each of us saw her duck	
+	3) The passerby helped dog bite victim
+
+7) 	1) Not poperty given how hot is it 
+	2) no object given what is hot
+	3) where is it "hot"
+
+8)	Show that there are p1 to pn +1 != prime number. eg 1*2*3*5*7*11*13+1 = 30031 = 59*509
+
+	He said: "If you use the word and, and" and "and, and is good!"; (and,or,and,or)
+
+
+Assignment 2
+
+1)	b) 7 <= p < 12
+	c) 5 < x < 7
+	d) x < 4
+	e) -3 < y < 3
+	f) x = 0
+
+2)	a) Pi is greater than zero and lower than ten
+	c) 5 is lower then x and x is lower than seven
+	b) p is lower or euqual to seven and lower than 12
+	d) x is lower than four
+	e) y is lower than three
+	f) x is equal to zero
+
+3)	check the truth of each conjunct
+4) 	check if one conjunct is false then the whole conjunction is false
+
+5) 	a) pi > 3
+	b) x != 0
+	c) x >= 0
+	d) x >= 0
+	e) x^2 > 9
+
+6)...
+7) find one disjunct that is true
+8) check if each disjunct is false
+
+9)	a) pi <= 3.2
+	b) x >= 0
+	c) x = 0
+	d) x != 1 
+	e) phi
+
+10)	a) pi is greater than 3.2
+	b) x is greater than zero
+	c) x squared is lower than zero
+	d) x is not 1 
+	e) not not phi is phi
+
+11)	a) D && Y
+	b) D && T && !Y
+	c) D || !Y && !D || Y  !(D && Y)
+	d) T && !D && !Y
+	e) !T && D && Y
