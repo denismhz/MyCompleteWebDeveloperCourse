@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo list demo</title>
+	<style type="text/css" src="todos.css"></style>
+</head>
+<body>
+	<ul>
+		<li>Something</li>
+		<li>Something else</li>
+		<li>And Something else</li>
+	</ul>
+
+	<script type="text/javascript">
+		var lis  = document.querySelectorAll("li");
+
+		for(var i = 0; i <= lis.length; i++){
+			lis[i].addEventListener("mouseover", function(){
+				this.classList.add("selected");
+			});
+
+			lis[i].addEventListener("mouseout", function(){
+				this.style.color = "black";
+				this.classList.remove("selected");
+			});
+
+			lis[i].addEventListener("click",function(){
+				this.classList.toggle("done");
+			});
+		}
+		
+	</script>
+</body>
+</html>
