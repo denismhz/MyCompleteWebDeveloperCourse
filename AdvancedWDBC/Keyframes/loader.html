@@ -1,0 +1,87 @@
+<div class="container">
+	<h1>This page takes forever to load.</h1>
+	<div class="loader"></div>
+	<h2>It never loads, you silly goose!</h2>
+</div>
+
+<style type="text/css">
+html {
+	background: #ecf0f1;
+}
+
+body, h1, h2 {
+	font-family: Helvetica, Sans-serif; 
+	color: #2c3e50;
+	margin:0; 
+	padding:0; 
+	font-weight:300;
+}
+
+h1 {
+	font-size: 80px;
+}
+
+h2 {
+	font-size: 36px;
+	opacity: 0;
+	animation: appear 1s 3s forwards;
+}
+
+.container{
+	margin:4em;
+	text-align: center;
+}
+
+.loader {
+	margin: 100px auto;
+	border: 16px solid #bdc3c7;
+	width: 120px;
+	height: 120px;
+	border-top-color: #1abc9c;
+	border-bottom-color: #3498db;
+	border-radius: 50%;
+	animation: coloredspin 4s linear infinite;
+}
+
+h2 {
+	font-size: 36px;
+	animation: appear 1s 3s forwards;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+@keyframes coloredspin {
+	0% {
+		transform: rotate(0deg) scale(1);
+	}
+	25% {
+		border-top-color: #2dcc71;
+	}
+	50% {
+		border-top-color: red;
+		transform: rotate(360deg) scale(1.1);
+	}
+	75% {
+		border-top-color: red;
+	}
+	100% {
+		transform: rotate(720deg) scale(1);
+	}
+}
+
+@keyframes appear{
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+</style>

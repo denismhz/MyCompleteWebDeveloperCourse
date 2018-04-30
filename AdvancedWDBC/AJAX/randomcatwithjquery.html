@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script
+	src="http://code.jquery.com/jquery-3.3.1.min.js"
+	integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+	crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+</head>
+<body>
+	<h1>Ron Swanson Quote Generator</h1>
+	<p>(4 ways of writing AJAX requests)</p>
+	<section class="container">
+		<button id="xhr">XHR</button>
+		<button id="fetch">Fetch</button>
+		<button id="jquery">jQuery</button>
+		<button id="axios">Axios</button>
+	</section>
+
+	<p id="quote">Quote Goes Here...</p>
+	<div id="code">
+		<p>Code:</p>
+		<pre><code>
+		</code></pre>
+	</div>
+
+	<style type="text/css">
+	@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+	body {
+		font-family: 'Roboto';
+		color: #2c3e50;
+		text-align: center;
+	}
+
+	#quote {
+		font-size: 20px;
+	}
+
+	.container {
+		display: flex;
+		justify-content: space-around;
+		flex-wrap: wrap;
+	}
+
+
+	button {
+		margin-top: 20px;
+		background: red;
+		border: none;
+		outline: none;
+		height: 40px;
+		text-align: center;
+		width: 130px;
+		border-radius: 40px;
+		background: #fff;
+		border: 2px solid #1abc9c;
+		color: #1abc9c;
+		letter-spacing: 1px;
+		text-shadow: 0;
+		font-size: 12px;
+		font-weight: bold;
+		cursor: pointer;
+		-webkit-transition: all 0.25s ease;
+		transition: all 0.25s ease;
+		font-family: 'Roboto', sans-serif;
+
+
+	}
+
+	#code {
+		text-align: left;
+		margin: 0 auto;
+	}
+	button:hover {
+		color: white;
+		background: #1abc9c;
+	}
+</style>
+<script type="text/javascript" src="randomcatwithjquery.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<div class="translate">
+	<p></p>
+	<p class="move-right"></p>
+	<p></p>
+	<p class="move-down"></p>
+</div>
+
+<div class="scale">
+	<p>Hello</p>
+	<p class="transformed">Hello</p>
+</div>
+
+<style type="text/css">
+	div{
+		margin-bottom: 50px;
+		border-bottom: 2px solid black;
+	}
+
+	.translate p{
+		width: 50px;
+		height: 50px;
+		background-color: #1abc9c;
+	}
+
+	.translate p.move-right {
+		background-color: #3498db;
+		transform: translateX(100px);
+	}
+
+	.translate p.move-down {
+		background-color: #3498db;
+		transform: translateY(20px);
+	}
+
+	.translate p:hover {
+		transform: translate(20px, 20px);
+	}
+
+	.scale p{
+		width: 50px;
+		height: 50px;
+		background-color: #1abc9c;
+	}
+
+	.scale .transformed{
+		width: 50px;
+		height: 50px;
+		background-color: #abcdef;
+		
+		transform: rotate(45deg);
+		/*transform: scale(2);*/
+		transform-origin: center;
+	}
+
+</style>

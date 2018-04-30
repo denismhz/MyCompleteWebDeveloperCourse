@@ -1,0 +1,71 @@
+<header>
+  <a href="">Nav Left</a>
+  <a href="">Nav Right</a>
+</header>
+<main>
+  <article>MAIN CONTENT</article>
+  <nav>SIDE NAV</nav>
+  <aside>ASIDE</aside>
+</main>
+<footer>FOOTER</footer>
+
+<style type="text/css">
+	body {
+		margin: 0;
+		min-height: 100px;
+		background: steelblue;
+		display: flex;
+		flex-direction: column;
+	}
+
+	header {
+		background: green;
+		flex-basis: 100px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	main > *, header, footer {
+		margin: 4px;
+		padding: 5px;
+		border-radius: 7px;
+	}
+
+	main {
+		display:flex;
+		flex-direction: row;
+		min-height: 800px;
+	}
+
+	article {
+		flex: 4 0 60%;
+		background: red;
+	}
+
+	nav {
+		background: grey;
+		flex: 1 1 20%;	
+		order: -1;
+	}
+
+	aside {
+		background: lightblue;
+		flex: 1 1 20%;	
+	}
+
+	footer {
+		background: green;
+		flex-basis: 100px;
+	}
+
+	@media all and (max-width: 640px) {
+		main {
+			flex-direction: column;
+			flex-grow: 1;
+		}
+		nav {
+			order: 0;
+		}
+	}
+</style>
