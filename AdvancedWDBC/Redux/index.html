@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/redux/4.0.0/redux.min.js">
+
+	</script>
+	<script type="text/javascript">
+		//0 - create a reducer with some initial state
+		//1^- create a store -> the reducer is run and our initial state is defined
+		//2 - whenever we want to see our state -> store.getState()
+		//3 - whenever we want to make a change to our state -> store.dispatch()
+			//4 - actions are objects
+			//5 - actions must have a key of "type"
+		//6 - writeng a function that returns an object
+			//7 - write a function that returns an action
+
+		/*	function increment(){
+				return {
+					type:"INCREMENT"
+				}
+			}
+		*/
+
+		var initialState = {
+			count:0
+		}
+
+		function rootReducer(state=initialState,action){
+			if(action.type==="INCREMENT"){
+				let newState = Object.assign({}, state);
+				newState.count++;
+				return newState;
+			}
+			if(action.type==="DECREMENT"){
+				let newState = Object.assign({}, state);
+				newState.count--;
+				return newState;
+			}
+			return state;
+		}
+
+		var store = Redux.createStore(rootReducer);
+	</script>
+</body>
+</html>
